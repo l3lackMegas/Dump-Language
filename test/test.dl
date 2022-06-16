@@ -1,0 +1,11 @@
+calTriangleArea(w, h):
+    r = w * h / 2
+    print(123)
+    >> r
+;
+
+width = 5
+height = 10
+result = calTriangleArea(width, height)
+
+print("The area of the triangle is " + result)

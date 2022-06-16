@@ -1,0 +1,33 @@
+3
+2 ^ 8
+(12 % 7) * (3 + 2)
+19 / -9
+
+hoursPerDay_2 = 24
+minutesPerHour = 60
+minutesPerDay = minutesPerHour * hoursPerDay_2
+minutesPerDay
+minutesPerDay * 60
+
+toDegrees(radians) : >> radians * 180 / pi;
+toDegrees(2 * pi)
+
+cylinderVolume(r, h):
+>> pi * r ^ 2 * h ;
+cylinderVolume(2, 4)
+
+testFn(x) : >> x ^ 2 ;
+
+aa = -2 + 3
+testFn(1)
+
+asdtestFn(x):
+    >> 123 + x
+;
+
+a = asdtestFn(2)
+
+print(a)
+
+testStr = "123 asdasd"
+print(testStr + " Hello World")
