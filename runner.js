@@ -11,7 +11,7 @@ import Interpreter from './lib/interpreter.js'
 var evalute = function (input) {
     try {
         var tokens = (new Lexer(input)).get();
-        console.log(tokens)
+        // console.log(tokens)
         var parseTree = (new Parser(tokens)).analyze();
         // console.log(JSON.stringify(parseTree, null, 2));
         var output = (new Interpreter(parseTree)).get();
